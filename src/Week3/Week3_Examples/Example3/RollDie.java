@@ -44,7 +44,7 @@ public class RollDie {
         }
 
         System.out.println("Face\tFrequency");
-        System.out.printf("1\t%d%n2\t%d%n3\t%d%n4\t5%d%n6\t%d%n",freq1,freq2,freq3,freq4,freq5,freq6);
+        System.out.printf("1\t\t%d%n2\t\t%d%n3\t\t%d%n4\t\t5%d%n6\t\t%d%n",freq1,freq2,freq3,freq4,freq5,freq6);
     }
 
 }
