@@ -2,7 +2,7 @@ package Week3.Week3_Examples;
 import java.util.Scanner;
 public class MaximumFinder {
 
-    public static void main (String args)
+    public static void main (String[] args)
     {
         Scanner input = new Scanner(System.in);
 
@@ -22,14 +22,15 @@ public class MaximumFinder {
 
     public static  double maximum(double x,double y,double z)
     {
-        double maximumValue = x;
+        return  Math.max(x, Math.max (y,z));
+       /* double maximumValue = x;
         if(y>x)
             maximumValue=y;
 
         if(z > maximumValue)
             maximumValue = z;
 
-        return maximumValue;
+        return maximumValue;*/
     }
 
 }
