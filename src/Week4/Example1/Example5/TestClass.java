@@ -1,0 +1,14 @@
+package Week4.Example1.Example5;
+
+public class TestClass {
+
+    public static void main(String[] args) {
+
+        Date birth = new Date(7,24,1949);
+        Date hire = new Date(3,12,1988);
+        Employee employee = new Employee("Bob","Blue",birth,hire);
+
+        System.out.println(employee);
+
+    }
+}
